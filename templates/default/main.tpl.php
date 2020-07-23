@@ -117,9 +117,6 @@
                     <?php echo $this->options['owner_year'] ? $this->options['owner_year'] : date('Y'); ?>
                 </li>
                 <li id="info">
-                    <span class="item">
-                        <?php echo LANG_POWERED_BY_INSTANTCMS; ?>
-                    </span>
                     <?php if ($config->debug && cmsUser::isAdmin()){ ?>
                         <span class="item">
                             <a href="#debug_block" title="<?php echo LANG_DEBUG; ?>" class="ajax-modal"><?php echo LANG_DEBUG; ?></a>
